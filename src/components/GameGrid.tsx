@@ -18,7 +18,7 @@ const GameGrid = () => {
           xl: 5,
         }}
         padding="10px"
-        spacing={10}
+        spacing={3}
       >
         {IsLoading &&
           skeltons.map((skelton) => (
